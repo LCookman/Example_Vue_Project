@@ -1,16 +1,22 @@
 <template>
-    <span>
-        <home-hero></home-hero>
-    </span>
+   <span>
+      <home-hero></home-hero>
+      <home-details></home-details>
+      <home-plans></home-plans>
+   </span>
 </template>
 
 <script lang="ts">
-import HomeHero from '@/components/HomeHero';
+import HomeHero from '@/components/HomeHero.vue';
+import HomeDetails from '@/components/HomeDetails.vue';
+import HomePlans from '@/components/HomePlans.vue';
 
 export default {
-    name: 'home',
-    components: {
-        HomeHero
-    }
+   name: 'home',
+   components: {
+      HomeHero,
+      HomeDetails,
+      HomePlans
+   }
 };
 </script>

@@ -8,16 +8,15 @@
    </v-app>
 </template>
 
-<script>
-import AppNavigation from '@/components/AppNavigation';
+<script lang="ts">
+import AppNavigation from "@/components/AppNavigation.vue";
 
 export default {
    name: 'App',
-   components: (
+   components: {
       AppNavigation
-   )
+   }
 };
 </script>
 
-<style>
-</style>
+<style></style>
